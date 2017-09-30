@@ -24,12 +24,7 @@ public class HW01_1{
     }
     public static void main (String []args){
         String path = new String(String.valueOf(args[0]));
-  // String path = new String ("C:/Users/Viktor Todev/Documents");
-  /*if(args.length==0){
-       System.out.println("no arguments");
-   }else{
-       System.out.println(args[0] );
-   }*/
+  
     File directory= new File(path);
     FilenameFilter filter = new Filter("txt");
     //System.out.println(directory.getName());
